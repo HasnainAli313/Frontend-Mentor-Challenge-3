@@ -1,0 +1,77 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* background-image: url(./images/bg-pattern-bottom.svg); */
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counts-box{
+    display: flex;
+    border-top: 1px solid hsl(227, 10%, 46%);
+    justify-content: space-evenly;
+    width: 314px;
+    gap: 20px;
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  white;
+    width: 25%;
+    height: 368px;
+    border-radius: 10px;
+}
+.box-bg{
+    height: 220px;
+    width: 315px;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    background-image: url(./images/bg-pattern-card.svg);
+    background-size:auto;
+}
+.profile-details{
+    position: relative;
+    bottom: 50px;
+    text-align: center;   
+}
+.profile-pic img{
+    border-radius: 50%;
+    border:5px solid white
+}
+.counts{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+.counts span{
+    line-height:0px;
+    margin-top: -10px;
+    font-size: small;
+}
+.light{
+    color:  hsl(227, 10%, 46%);
+}
+.text{
+}
+h6{
+
+}
+
+@media (max-width: 767px) {
+    .profile-card{
+    width: 87.5%;
+    }
+}
